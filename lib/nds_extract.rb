@@ -51,7 +51,7 @@ while row_index < directors_totals[source].length do
 
 row_index += 1 
 end
- p gross_for_director[list_of_directors]
+ p gross_for_director[source]
 # binding.pry 
 end
 
