@@ -51,7 +51,7 @@ while row_index < source.length do
 
 row_index += 1 
 end
- p movies
+ p movies[worldwide_gross]
 # binding.pry 
 end
 
