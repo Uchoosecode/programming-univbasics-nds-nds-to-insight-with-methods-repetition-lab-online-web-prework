@@ -44,14 +44,19 @@ def total_gross(source)
   grand_gross = 0  
 while row_index < source.length do 
   # grand_gross[list_of_directors] = 0 
- list_of_directors = source[row_index][:name]
- 
   movies = source[row_index][:movies]
-# p grand_gross += directors_totals[source][row_index]
+  element_index = 0 
+  while element_index < movies.length do 
+    
+p grand_gross += movies[element_index][:worldwide_gross]
+  
+  
+  element_index += 1 
+end
 
 row_index += 1 
 end
- p movies[worldwide_gross]
+ p grand_gross
 # binding.pry 
 end
 
