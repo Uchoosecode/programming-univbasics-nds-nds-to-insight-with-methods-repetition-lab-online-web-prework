@@ -51,7 +51,7 @@ p grand_gross += directors_totals[source][row_index]
 
 row_index += 1 
 end
- p grand_gross
+ p directors_totals[source]
 # binding.pry 
 end
 
