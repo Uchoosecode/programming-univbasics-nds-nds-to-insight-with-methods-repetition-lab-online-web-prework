@@ -47,7 +47,7 @@ while row_index < directors_totals[source].length do
  list_of_directors = source[row_index][:name]
  
   movies = source[row_index][:movies]
-p grand_gross += directors_totals[source][row_index]
+# p grand_gross += directors_totals[source][row_index]
 
 row_index += 1 
 end
