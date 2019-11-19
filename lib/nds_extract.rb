@@ -42,7 +42,7 @@ end
 def total_gross(source)
   row_index = 0 
   grand_gross = 0  
-while row_index < directors_totals[source].length do 
+while row_index < source.length do 
   # grand_gross[list_of_directors] = 0 
  list_of_directors = source[row_index][:name]
  
